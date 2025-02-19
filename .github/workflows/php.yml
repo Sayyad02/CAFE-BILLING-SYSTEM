@@ -1,3 +1,6 @@
+- name: Debug - Show Current Directory and Files
+  run: pwd && ls -la
+
 name: PHP Composer CI
 
 on:
@@ -51,3 +54,4 @@ jobs:
 
       - name: Debug - Show Installed Packages
         run: composer show
+ 
